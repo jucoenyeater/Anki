@@ -1,0 +1,19 @@
+Q: What is the Circle of Fifths?
+A: A music theory tool used to understand the relationship between musical keys.
+Tags: Circle of Fifths, music theory, musical keys
+
+Q: How is the Circle of Fifths used to determine the key signature of a piece of music?
+A: The key signature of a piece of music is determined by the number of sharps or flats in the key, which can be found by looking at the Circle of Fifths.
+Tags: Circle of Fifths, music theory, key signature
+
+Q: How can the Circle of Fifths be used to help with chord progressions?
+A: The Circle of Fifths can help you determine which chords are likely to sound good together in a chord progression, as chords that are adjacent to each other on the Circle of Fifths are typically used together.
+Tags: Circle of Fifths, music theory, chord progressions
+
+Q: What is the relationship between the Circle of Fifths and the major and minor keys?
+A: The Circle of Fifths shows the relationship between the major and minor keys that have the same key signature, and can be used to identify the relative minor key of a major key or vice versa.
+Tags: Circle of Fifths, music theory, major keys, minor keys, key signature, relative keys
+
+Q: How is the Circle of Fifths used in music composition?
+A: The Circle of Fifths can be used to help with modulation, or changing from one key to another within a piece of music, as well as to create chord progressions and harmonies.
+Tags: Circle of Fifths, music theory, composition techniques, modulation
