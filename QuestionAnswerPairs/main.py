@@ -51,9 +51,9 @@ def main(args=None):
         default_config = anki_connect.get_deck_config("Default Settings")
         config_id = anki_connect.clone_deck_config(args.deck_name, default_config["id"])
         
-        # Update new cards per day to 30
+        # Update new cards per day to 10
         updated_config = default_config.copy()
-        updated_config["new"]["perDay"] = 30
+        updated_config["new"]["perDay"] = 10
         
         # Add the config to the JSON file
         config_manager.add_config_id(args.deck_name, config_id)

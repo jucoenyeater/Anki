@@ -44,7 +44,7 @@ class ConfigFileManager:
         return config_ids.get(config_name)
     
 
-class AnkiConnect:
+class AnkiConnect: 
     def __init__(self, host="http://127.0.0.1", port=8765):
         self.url = f"{host}:{port}/"
 
@@ -53,11 +53,10 @@ class AnkiConnect:
         if params:
             request_data["params"] = params
         response = requests.post(self.url, json=request_data).json()
-        if len(response) > 0 and response.get("error") is None:
+        if len(response) == 2 and response.get("error") is None:
             return response["result"]
         else:
             raise Exception(f"Error with action {action}: {response.get('error')}")
-
 
     def create_deck(self, deck_name):
         return self._invoke("createDeck", {"deck": deck_name})
@@ -65,7 +64,6 @@ class AnkiConnect:
     def deck_exists(self, deck_name):
         decks = self._invoke('deckNames')
         return deck_name in decks
-
 
     def delete_deck(self, deck_name):
         return self._invoke("deleteDecks", {"decks": [deck_name]})
